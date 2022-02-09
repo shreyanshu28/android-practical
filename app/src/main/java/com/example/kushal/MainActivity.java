@@ -48,4 +48,9 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+    public void goActivity(View view) {
+        Intent intent = new Intent(getApplicationContext(), MainActivity4.class);
+        startActivity(intent);
+    }
 }
